@@ -1,0 +1,25 @@
+subject,subject_label,relation,object,object_label,evidence
+To,NOUN,ISSUED_BY,invoice,NOUN,"Bill To: Beta Retail Corp, Mumbai, India
+GSTIN: 29ABCDE1234F1Z5
+
+Acme Manufacturing issued this invoice to Beta Retail Corp for goods ordered on 20 December 2023."
+Beta Retail Corp,ORG,PLACE,order,NOUN,"Beta Retail Corp placed the order through their procurement manager, Rohan Mehta."
+goods,NOUN,SHIPPED_TO,27 December 2023,DATE,The goods were shipped on 27 December 2023 and delivered to the Mumbai warehouse on 30 December 2023.
+Beta Retail Corp,ORG,RECEIVE,shipment,NOUN,Beta Retail Corp received the shipment and confirmed delivery on 31 December 2023.
+Acme Manufacturing,ORG,ISSUED_BY,refund,NOUN,Acme Manufacturing will issue a refund if any items are returned within 15 days.
+items,NOUN,RETURN,15 days,DATE,Acme Manufacturing will issue a refund if any items are returned within 15 days.
+INVOICE,DOCUMENT,HAS_DATE,03 January 2024,DATE,"Purchase Order PO-88291
+
+Invoice Date: 03 January 2024"
+INVOICE,DOCUMENT,HAS_DATE,02 February 2024,DATE,"Invoice Date: 03 January 2024
+Due Date: 02 February 2024"
+INVOICE,DOCUMENT,HAS_AMOUNT,"$4,300.00",AMOUNT,"eets (200 units) - $1,800.00
+
+Subtotal: $4,300.00"
+INVOICE,DOCUMENT,HAS_AMOUNT,$430.00,AMOUNT,"800.00
+
+Subtotal: $4,300.00
+Tax Amount: $430.00"
+INVOICE,DOCUMENT,HAS_AMOUNT,"$4,730.00",AMOUNT,"00.00
+Tax Amount: $430.00
+Total Amount: $4,730.00"

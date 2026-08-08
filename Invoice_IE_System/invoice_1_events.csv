@@ -1,0 +1,32 @@
+event_type,trigger,sentence,date_text,sequence
+InvoiceIssued,issued,"Bill To: Beta Retail Corp, Mumbai, India
+GSTIN: 29ABCDE1234F1Z5
+
+Acme Manufacturing issued this invoice to Beta Retail Corp for goods ordered on 20 December 2023.",20 December 2023,1
+OrderPlaced,ordered,"Bill To: Beta Retail Corp, Mumbai, India
+GSTIN: 29ABCDE1234F1Z5
+
+Acme Manufacturing issued this invoice to Beta Retail Corp for goods ordered on 20 December 2023.",20 December 2023,2
+OrderPlaced,placed,"Beta Retail Corp placed the order through their procurement manager, Rohan Mehta.",20 December 2023,3
+GoodsShipped,shipped,The goods were shipped on 27 December 2023 and delivered to the Mumbai warehouse on 30 December 2023.,27 December 2023,4
+GoodsDelivered,delivered,The goods were shipped on 27 December 2023 and delivered to the Mumbai warehouse on 30 December 2023.,27 December 2023,5
+GoodsReceived,received,Beta Retail Corp received the shipment and confirmed delivery on 31 December 2023.,31 December 2023,6
+PaymentMade,pay,"Aluminium Sheets (200 units) - $1,800.00
+
+Subtotal: $4,300.00
+Tax Amount: $430.00
+Total Amount: $4,730.00
+
+Payment Term: Net 30
+Beta Retail Corp is expected to pay the total amount by the due date.",15 days,7
+PaymentDue,due,"Aluminium Sheets (200 units) - $1,800.00
+
+Subtotal: $4,300.00
+Tax Amount: $430.00
+Total Amount: $4,730.00
+
+Payment Term: Net 30
+Beta Retail Corp is expected to pay the total amount by the due date.",15 days,8
+InvoiceIssued,issue,Acme Manufacturing will issue a refund if any items are returned within 15 days.,15 days,9
+RefundIssued,refund,Acme Manufacturing will issue a refund if any items are returned within 15 days.,15 days,10
+GoodsReturned,returned,Acme Manufacturing will issue a refund if any items are returned within 15 days.,15 days,11
